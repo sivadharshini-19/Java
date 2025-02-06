@@ -1,0 +1,69 @@
+Here is the Java code to add two numbers:
+
+```java
+import java.util.Scanner;
+
+public class AddTwoNumbers {
+
+    public static void main(String[] args) {
+        // Create a scanner object to take input from the user
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt user to enter two numbers
+        System.out.print("Enter the first number: ");
+        int num1 = scanner.nextInt();
+        
+        System.out.print("Enter the second number: ");
+        int num2 = scanner.nextInt();
+
+        // Calculate the sum
+        int sum = num1 + num2;
+
+        // Output the result
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+
+        // Close the scanner
+        scanner.close();
+    }
+}
+```
+
+Explanation:
+- This program takes two integer inputs from the user using `Scanner`.
+- It then calculates the sum of those two numbers and prints the result.
+
+Example Output:
+```
+Enter the first number: 10
+Enter the second number: 20
+The sum of 10 and 20 is: 30
+```Here is the Java code to add two numbers:
+
+```java
+import java.util.Scanner;
+
+public class AddTwoNumbers {
+
+    public static void main(String[] args) {
+        // Create a scanner object to take input from the user
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt user to enter two numbers
+        System.out.print("Enter the first number: ");
+        int num1 = scanner.nextInt();
+        
+        System.out.print("Enter the second number: ");
+        int num2 = scanner.nextInt();
+
+        // Calculate the sum
+        int sum = num1 + num2;
+
+        // Output the result
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+
+        // Close the scanner
+        scanner.close();
+    }
+}
+```
+
